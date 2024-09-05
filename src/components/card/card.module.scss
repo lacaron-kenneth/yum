@@ -1,0 +1,29 @@
+.root {
+  border-radius: 12px;
+  position: static;
+  background-color: #ffffff;
+  border: 1px solid var(--border-default);
+  overflow: hidden;
+  &:hover {
+    cursor: pointer;
+    background-color: #000000;
+    background: var(--background-white);
+    box-shadow: 0 3px 16px -4px rgba(51, 40, 36, 0.25);
+  }
+}
+.content {
+  border-radius: 12px;
+  padding-top: var(--space-16);
+  padding-right: var(--space-16);
+  padding-bottom: var(--space-16);
+  padding-left: var(--space-16);
+  font-size: var(--heading-large-font-size);
+  line-height: var(--heading-large-line-height);
+  font-weight: 400;
+}
+.image {
+  object-fit: cover;
+  aspect-ratio: 3/2;
+  width: 100%;
+  overflow: hidden;
+}
